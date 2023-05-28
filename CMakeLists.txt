@@ -4,7 +4,7 @@ project(xkcd)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(xkcd main.cpp pinecone.cpp openai.cpp)
+add_executable(xkcd main.cpp openai.cpp pinecone.cpp)
 
 include(FetchContent)
 

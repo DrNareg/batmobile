@@ -83,24 +83,10 @@ CMakeFiles/xkcd.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xkcd.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/batmobile/main.cpp -o CMakeFiles/xkcd.dir/main.cpp.s
 
-CMakeFiles/xkcd.dir/pinecone.cpp.o: CMakeFiles/xkcd.dir/flags.make
-CMakeFiles/xkcd.dir/pinecone.cpp.o: /workspaces/batmobile/pinecone.cpp
-CMakeFiles/xkcd.dir/pinecone.cpp.o: CMakeFiles/xkcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/batmobile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xkcd.dir/pinecone.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xkcd.dir/pinecone.cpp.o -MF CMakeFiles/xkcd.dir/pinecone.cpp.o.d -o CMakeFiles/xkcd.dir/pinecone.cpp.o -c /workspaces/batmobile/pinecone.cpp
-
-CMakeFiles/xkcd.dir/pinecone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xkcd.dir/pinecone.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/batmobile/pinecone.cpp > CMakeFiles/xkcd.dir/pinecone.cpp.i
-
-CMakeFiles/xkcd.dir/pinecone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xkcd.dir/pinecone.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/batmobile/pinecone.cpp -o CMakeFiles/xkcd.dir/pinecone.cpp.s
-
 CMakeFiles/xkcd.dir/openai.cpp.o: CMakeFiles/xkcd.dir/flags.make
 CMakeFiles/xkcd.dir/openai.cpp.o: /workspaces/batmobile/openai.cpp
 CMakeFiles/xkcd.dir/openai.cpp.o: CMakeFiles/xkcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/batmobile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xkcd.dir/openai.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/batmobile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xkcd.dir/openai.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xkcd.dir/openai.cpp.o -MF CMakeFiles/xkcd.dir/openai.cpp.o.d -o CMakeFiles/xkcd.dir/openai.cpp.o -c /workspaces/batmobile/openai.cpp
 
 CMakeFiles/xkcd.dir/openai.cpp.i: cmake_force
@@ -111,18 +97,32 @@ CMakeFiles/xkcd.dir/openai.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xkcd.dir/openai.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/batmobile/openai.cpp -o CMakeFiles/xkcd.dir/openai.cpp.s
 
+CMakeFiles/xkcd.dir/pinecone.cpp.o: CMakeFiles/xkcd.dir/flags.make
+CMakeFiles/xkcd.dir/pinecone.cpp.o: /workspaces/batmobile/pinecone.cpp
+CMakeFiles/xkcd.dir/pinecone.cpp.o: CMakeFiles/xkcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/batmobile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xkcd.dir/pinecone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xkcd.dir/pinecone.cpp.o -MF CMakeFiles/xkcd.dir/pinecone.cpp.o.d -o CMakeFiles/xkcd.dir/pinecone.cpp.o -c /workspaces/batmobile/pinecone.cpp
+
+CMakeFiles/xkcd.dir/pinecone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xkcd.dir/pinecone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/batmobile/pinecone.cpp > CMakeFiles/xkcd.dir/pinecone.cpp.i
+
+CMakeFiles/xkcd.dir/pinecone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xkcd.dir/pinecone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/batmobile/pinecone.cpp -o CMakeFiles/xkcd.dir/pinecone.cpp.s
+
 # Object files for target xkcd
 xkcd_OBJECTS = \
 "CMakeFiles/xkcd.dir/main.cpp.o" \
-"CMakeFiles/xkcd.dir/pinecone.cpp.o" \
-"CMakeFiles/xkcd.dir/openai.cpp.o"
+"CMakeFiles/xkcd.dir/openai.cpp.o" \
+"CMakeFiles/xkcd.dir/pinecone.cpp.o"
 
 # External object files for target xkcd
 xkcd_EXTERNAL_OBJECTS =
 
 xkcd: CMakeFiles/xkcd.dir/main.cpp.o
-xkcd: CMakeFiles/xkcd.dir/pinecone.cpp.o
 xkcd: CMakeFiles/xkcd.dir/openai.cpp.o
+xkcd: CMakeFiles/xkcd.dir/pinecone.cpp.o
 xkcd: CMakeFiles/xkcd.dir/build.make
 xkcd: _deps/cpr-build/cpr/libcpr.so.1.10.2
 xkcd: _deps/curl-build/lib/libcurl-d.so
