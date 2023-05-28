@@ -1,0 +1,341 @@
+Performing Curl Test HAVE_FSETXATTR_6 failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36ee9/fast && /usr/bin/make  -f CMakeFiles/cmTC_36ee9.dir/build.make CMakeFiles/cmTC_36ee9.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36ee9.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_FSETXATTR_6  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_36ee9.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:442:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  442 | main() {
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:443:3: error: too many arguments to function ‘fsetxattr’
+  443 |   fsetxattr(0, 0, 0, 0, 0, 0);
+      |   ^~~~~~~~~
+In file included from /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:440:
+/usr/include/x86_64-linux-gnu/sys/xattr.h:54:12: note: declared here
+   54 | extern int fsetxattr (int __fd, const char *__name, const void *__value,
+      |            ^~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_36ee9.dir/build.make:78: CMakeFiles/cmTC_36ee9.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_36ee9/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_254ed/fast && /usr/bin/make  -f CMakeFiles/cmTC_254ed.dir/build.make CMakeFiles/cmTC_254ed.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_254ed.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_254ed.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:236:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  236 | main ()
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:241:24: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  241 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                        ^~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:241:24: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:241:44: error: ‘FIONBIO’ undeclared (first use in this function)
+  241 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                            ^~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:241:44: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_254ed.dir/build.make:78: CMakeFiles/cmTC_254ed.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_254ed/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6db68/fast && /usr/bin/make  -f CMakeFiles/cmTC_6db68.dir/build.make CMakeFiles/cmTC_6db68.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6db68.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_6db68.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:261:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  261 | main ()
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:265:13: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  265 |     if(0 != IoctlSocket(0, 0, 0))
+      |             ^~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:265:13: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+Linking C executable cmTC_6db68
+/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6db68.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H CMakeFiles/cmTC_6db68.dir/CurlTests.c.o -o cmTC_6db68 
+/usr/bin/ld: CMakeFiles/cmTC_6db68.dir/CurlTests.c.o: in function `main':
+CurlTests.c:(.text+0x1d): undefined reference to `IoctlSocket'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6db68.dir/build.make:99: cmTC_6db68] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_6db68/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_540ae/fast && /usr/bin/make  -f CMakeFiles/cmTC_540ae.dir/build.make CMakeFiles/cmTC_540ae.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_540ae.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_540ae.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:284:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  284 | main ()
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:289:17: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  289 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                 ^~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:289:17: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:289:32: error: ‘FIONBIO’ undeclared (first use in this function)
+  289 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:289:32: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_540ae.dir/build.make:78: CMakeFiles/cmTC_540ae.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_540ae/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27ba0/fast && /usr/bin/make  -f CMakeFiles/cmTC_27ba0.dir/build.make CMakeFiles/cmTC_27ba0.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27ba0.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_27ba0.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:308:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  308 | main ()
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:312:17: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  312 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                 ^~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:312:17: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:312:32: error: ‘FIONBIO’ undeclared (first use in this function)
+  312 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:312:32: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_27ba0.dir/build.make:78: CMakeFiles/cmTC_27ba0.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_27ba0/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6c9c8/fast && /usr/bin/make  -f CMakeFiles/cmTC_6c9c8.dir/build.make CMakeFiles/cmTC_6c9c8.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c9c8.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_6c9c8.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:402:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  402 | main ()
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:404:43: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘SOCK_NONBLOCK’?
+  404 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                           ^~~~~~~~~~~
+      |                                           SOCK_NONBLOCK
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:404:43: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_6c9c8.dir/build.make:78: CMakeFiles/cmTC_6c9c8.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_6c9c8/fast] Error 2
+
+
+Performing Curl Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aec88/fast && /usr/bin/make  -f CMakeFiles/cmTC_aec88.dir/build.make CMakeFiles/cmTC_aec88.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aec88.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_aec88.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:516: warning: ISO C forbids an empty translation unit [-Wpedantic]
+  516 | #endif
+      | 
+Linking C executable cmTC_aec88
+/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aec88.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H CMakeFiles/cmTC_aec88.dir/CurlTests.c.o -o cmTC_aec88 
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_aec88.dir/build.make:99: cmTC_aec88] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_aec88/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67070/fast && /usr/bin/make  -f CMakeFiles/cmTC_67070.dir/build.make CMakeFiles/cmTC_67070.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67070.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_67070.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:90:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   90 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:97:23: error: storage size of ‘hdata’ isn’t known
+   97 |   struct hostent_data hdata;
+      |                       ^~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:109:8: error: too few arguments to function ‘gethostbyname_r’
+  109 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:97:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   97 |   struct hostent_data hdata;
+      |                       ^~~~~
+make[1]: *** [CMakeFiles/cmTC_67070.dir/build.make:78: CMakeFiles/cmTC_67070.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_67070/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4260e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4260e.dir/build.make CMakeFiles/cmTC_4260e.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4260e.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_4260e.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:90:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   90 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:112:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:87:
+/usr/include/netdb.h:180:36: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |        struct hostent **__restrict __result,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:112:8: error: too few arguments to function ‘gethostbyname_r’
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_4260e.dir/build.make:78: CMakeFiles/cmTC_4260e.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_4260e/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79dec/fast && /usr/bin/make  -f CMakeFiles/cmTC_79dec.dir/build.make CMakeFiles/cmTC_79dec.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79dec.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_79dec.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:90:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   90 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:97:23: error: storage size of ‘hdata’ isn’t known
+   97 |   struct hostent_data hdata;
+      |                       ^~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:109:8: error: too few arguments to function ‘gethostbyname_r’
+  109 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:97:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   97 |   struct hostent_data hdata;
+      |                       ^~~~~
+make[1]: *** [CMakeFiles/cmTC_79dec.dir/build.make:78: CMakeFiles/cmTC_79dec.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_79dec/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_020a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_020a0.dir/build.make CMakeFiles/cmTC_020a0.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_020a0.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_020a0.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:90:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   90 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:112:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:87:
+/usr/include/netdb.h:180:36: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |        struct hostent **__restrict __result,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:112:8: error: too few arguments to function ‘gethostbyname_r’
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:87:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_020a0.dir/build.make:78: CMakeFiles/cmTC_020a0.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_020a0/fast] Error 2
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e0d99/fast && /usr/bin/make  -f CMakeFiles/cmTC_e0d99.dir/build.make CMakeFiles/cmTC_e0d99.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0d99.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GLIBC_STRERROR_R  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_e0d99.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:414:6: warning: no previous prototype for ‘check’ [-Wmissing-prototypes]
+  414 | void check(char c) {}
+      |      ^~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘check’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:414:17: warning: unused parameter ‘c’ [-Wunused-parameter]
+  414 | void check(char c) {}
+      |            ~~~~~^
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: At top level:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:417:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  417 | main () {
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:420:51: error: subscripted value is neither array nor pointer nor vector
+  420 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |                                                   ^
+make[1]: *** [CMakeFiles/cmTC_e0d99.dir/build.make:78: CMakeFiles/cmTC_e0d99.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_e0d99/fast] Error 2
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: /workspaces/batmobile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68118/fast && /usr/bin/make  -f CMakeFiles/cmTC_68118.dir/build.make CMakeFiles/cmTC_68118.dir/build
+make[1]: Entering directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68118.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_BUILTIN_AVAILABLE  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IDN2_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_68118.dir/CurlTests.c.o -c /workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:466:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  466 | main() {
+      | ^~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:467:6: warning: implicit declaration of function ‘__builtin_available’; did you mean ‘__builtin_scalbl’? [-Wimplicit-function-declaration]
+  467 |   if(__builtin_available(macOS 10.12, *)) {}
+      |      ^~~~~~~~~~~~~~~~~~~
+      |      __builtin_scalbl
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:467:6: warning: nested extern declaration of ‘__builtin_available’ [-Wnested-externs]
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:467:26: error: ‘macOS’ undeclared (first use in this function)
+  467 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                          ^~~~~
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:467:26: note: each undeclared identifier is reported only once for each function it appears in
+/workspaces/batmobile/build/_deps/curl-src/CMake/CurlTests.c:467:31: error: expected ‘)’ before numeric constant
+  467 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                               ^~~~~~
+      |                               )
+make[1]: *** [CMakeFiles/cmTC_68118.dir/build.make:78: CMakeFiles/cmTC_68118.dir/CurlTests.c.o] Error 1
+make[1]: Leaving directory '/workspaces/batmobile/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_68118/fast] Error 2
+
+

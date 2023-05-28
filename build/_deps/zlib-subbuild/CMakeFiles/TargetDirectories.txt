@@ -1,0 +1,3 @@
+/workspaces/batmobile/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate.dir
+/workspaces/batmobile/build/_deps/zlib-subbuild/CMakeFiles/edit_cache.dir
+/workspaces/batmobile/build/_deps/zlib-subbuild/CMakeFiles/rebuild_cache.dir
