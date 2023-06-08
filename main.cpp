@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
     }
 
     // Enter your OpenAI API key
-    std::string openai_api_key = "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";
+    std::string openai_api_key = "ENTER API KEY HERE";
     OpenAI openai(openai_api_key);
 
     // Enter your Pinecone API key
